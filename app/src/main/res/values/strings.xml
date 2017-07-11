@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Rekoginition</string>
+    <string name="bot_name">RekDemo</string>
+    <string name="bot_alias">RekDemo</string>
+    <string name="identity_id_test">us-east-1:e9b8051e-5410-4279-89f4-cb06f2ae83ba</string>
+    <string name="aws_region">us-east-1</string>
+    <string name="screen_options_main_message">Amazon Lex</string>
+    <string name="welcomeMessage">Hello I am Jarvis, How may I help you today?</string>
+    <string name="faceNotMatchMessage">Sorry, I’m yet to know you to assist further! Instead, would you like me to attempt a simple animation on your picture?</string>
+    <string name="photoRecogDone">Photo recognization done.</string>
+    <string name="imageRecognizationProgress">Photo recognition in process ...</string>
+    <string name="userFaceNotMatchingMess">We are seeing you for the first time. So we don\'t have any details about you.</string>
+
+    <string name="randomPerson">Sorry u r not an active user</string>
+    <string name="app_id">40a64386251bb5e55f7dd18d575bb20b</string>
+    <string name="key">b321a145fab1494c1c0071cb57da2dce</string>
+</resources>

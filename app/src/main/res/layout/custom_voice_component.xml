@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<demo.unisys.com.rekoginitionfinal.InteractiveVoiceView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                        android:layout_width="108dp"
+                                                        android:layout_height="108dp"
+                                                        android:layout_centerInParent="true"
+                                                        android:background="@android:color/black"></demo.unisys.com.rekoginitionfinal.InteractiveVoiceView>
