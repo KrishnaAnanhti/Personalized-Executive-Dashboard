@@ -1,0 +1,68 @@
+{"name":"RekDemo","description":null,"intents":[{"intentName":"DailyDashboardIntent","intentVersion"
+:"11"},{"intentName":"InsightIntent","intentVersion":"5"},{"intentName":"WeatherViewIntent","intentV
+ersion":"4"},{"intentName":"UserViewIntent","intentVersion":"2"},{"intentName":"CreateTicketIntent",
+"intentVersion":"2"},{"intentName":"WeatherStatusIntent","intentVersion":"3"},{"intentName":"Trigger
+Intent","intentVersion":"8"}],"clarificationPrompt":{"messages":[{"contentType":"PlainText","content
+":"Sorry, can you please repeat that?"}],"maxAttempts":5,"responseCard":null},"abortStatement":{"mes
+sages":[{"contentType":"PlainText","content":"Sorry, I could not understand. Goodbye."}],"responseCa
+rd":null},"status":"READY","failureReason":null,"lastUpdatedDate":"2017-06-10T15:26:02.698Z","create
+dDate":"2017-06-10T15:25:39.258Z","idleSessionTTLInSeconds":120,"voiceId":"Joanna","checksum":"bd287
+3d9-3db9-4119-b42f-7b566e8fe985","version":"21","locale":"en-US","childDirected":true,"dependencies"
+:{"intents":[{"name":"UserViewIntent","description":null,"slots":[],"sampleUtterances":["expand the
+user experience views","Thanks Jarvis everything looks good can you expand the user experience views
+","Can you please expand the user experience view"],"confirmationPrompt":{"messages":[{"contentType"
+:"PlainText","content":"Sure, here they are"}],"maxAttempts":3,"responseCard":null},"rejectionStatem
+ent":{"messages":[{"contentType":"PlainText","content":"Sorry, can not process your request this tim
+e"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"},"parentIntentSignature":null
+,"lastUpdatedDate":"2017-06-01T10:36:15.461Z","createdDate":"2017-06-01T10:36:15.461Z","version":"2"
+,"checksum":"70916d43-778e-40da-a109-6537595fd9f2"},{"name":"DailyDashboardIntent","description":nul
+l,"slots":[{"name":"howdy","description":null,"slotConstraint":"Optional","slotType":"passcode","slo
+tTypeVersion":"2","valueElicitationPrompt":{"messages":[{"contentType":"PlainText","content":"e.g. W
+hat city?"}],"maxAttempts":2,"responseCard":null},"priority":2,"sampleUtterances":[],"responseCard":
+null}],"sampleUtterances":["{howdy}"],"confirmationPrompt":{"messages":[{"contentType":"PlainText","
+content":"Thank you, lets bring up your daily operational dashboard for you to review"}],"maxAttempt
+s":3,"responseCard":null},"rejectionStatement":{"messages":[{"contentType":"PlainText","content":"So
+rry, couldn't identify you"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"},"pa
+rentIntentSignature":null,"lastUpdatedDate":"2017-06-10T15:15:38.614Z","createdDate":"2017-06-10T15:
+15:38.614Z","version":"11","checksum":"4eef43fe-f793-438a-a9bd-a5152d7e6c44"},{"name":"InsightIntent
+","description":null,"slots":[],"sampleUtterances":["Jarvis where to look first","Thank you Jarvis t
+ell me where to look first"],"confirmationPrompt":{"messages":[{"contentType":"PlainText","content":
+"There have been no service affecting events since your last visit yesterday. The system seems to be
+ operating within the normal operational baselines"}],"maxAttempts":3,"responseCard":null},"rejectio
+nStatement":{"messages":[{"contentType":"PlainText","content":"Sorry, i can not process your request
+"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"},"parentIntentSignature":null,
+"lastUpdatedDate":"2017-06-01T10:36:15.351Z","createdDate":"2017-06-01T10:36:15.351Z","version":"5",
+"checksum":"ce0f45f9-ec73-4c3e-a3de-36406d9a6fda"},{"name":"CreateTicketIntent","description":null,"
+slots":[],"sampleUtterances":["create the watch ticket","Yes Jarvis please create the watch ticket",
+"please create the watch ticket"],"confirmationPrompt":{"messages":[{"contentType":"PlainText","cont
+ent":"Thank you. I have created the watch ticket for you"}],"maxAttempts":3,"responseCard":null},"re
+jectionStatement":{"messages":[{"contentType":"PlainText","content":"Okay, No ticket has been create
+d"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"},"parentIntentSignature":null
+,"lastUpdatedDate":"2017-06-01T10:36:15.393Z","createdDate":"2017-06-01T10:36:15.393Z","version":"2"
+,"checksum":"0240bfc2-721b-4e1f-bd66-866ceafbc562"},{"name":"TriggerIntent","description":null,"slot
+s":[],"sampleUtterances":["Hi Jarvis show my daily dashboard","Jarvis please show my daily dashboard
+","Jarvis please show me my daily dashboard","Jarvis please show daily dashboard","Show my daily das
+hboard"],"confirmationPrompt":{"messages":[{"contentType":"PlainText","content":"Please step in fron
+t of the camera so I can see who I am speaking with"}],"maxAttempts":3,"responseCard":null},"rejecti
+onStatement":{"messages":[{"contentType":"PlainText","content":"Okay, it would have been great to kn
+ow you"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"},"parentIntentSignature"
+:null,"lastUpdatedDate":"2017-06-01T10:36:16.023Z","createdDate":"2017-06-01T10:36:16.023Z","version
+":"8","checksum":"831c605f-6e60-4e05-a324-e0a57774994d"},{"name":"WeatherStatusIntent","description"
+:null,"slots":[],"sampleUtterances":["What is the matter Jarvis","Tell me Jarvis","What happened Jar
+vis"],"confirmationPrompt":{"messages":[{"contentType":"PlainText","content":"The Unisys weather fee
+d just triggered a potential service affecting weather related event that may effect our systems in
+the Texas region. Shall I take you to the weather views to take a deeper look?"}],"maxAttempts":3,"r
+esponseCard":null},"rejectionStatement":{"messages":[{"contentType":"PlainText","content":"Sorry, ca
+n not process your request"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"},"pa
+rentIntentSignature":null,"lastUpdatedDate":"2017-06-01T10:36:15.820Z","createdDate":"2017-06-01T10:
+36:15.820Z","version":"3","checksum":"6d6a4bec-bd43-4d80-81a1-e0b635007f22"},{"name":"WeatherViewInt
+ent","description":null,"slots":[],"sampleUtterances":["Show the weather view","Yes Jarvis Show the
+weather view"],"confirmationPrompt":{"messages":[{"contentType":"PlainText","content":"Shall I send
+alerts to the application service teams and create a watch ticket related to this alert?"}],"maxAtte
+mpts":3,"responseCard":null},"rejectionStatement":{"messages":[{"contentType":"PlainText","content":
+"Okay. No watch ticket created"}],"responseCard":null},"fulfillmentActivity":{"type":"ReturnIntent"}
+,"parentIntentSignature":null,"lastUpdatedDate":"2017-06-01T10:36:15.594Z","createdDate":"2017-06-01
+T10:36:15.594Z","version":"4","checksum":"301ae612-951a-49f7-9eb8-fe672cf11b37"}],"slotTypes":[{"nam
+e":"passcode","description":"passcode","enumerationValues":[{"value":"howdy"},{"value":"Unisysstaron
+e"},{"value":"VikingsRock"}],"lastUpdatedDate":"2017-06-10T15:15:27.633Z","createdDate":"2017-06-10T
+15:15:27.633Z","version":"2","checksum":null}]}}
