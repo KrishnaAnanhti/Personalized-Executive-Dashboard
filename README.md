@@ -5,3 +5,7 @@ Profile Images of the Executives are stored in s3 bucket along with metadata lik
 
 Device Specification:
 Operating System : Android 6.0+ (Marshmallow or Nougat) Tested using Lenovo Yoga tablet, Samsung Galaxy tablets. Works in almost all tablets.
+
+
+normal flow : https://www.youtube.com/watch?v=fYxVWlseL9Y
+alternate flow :  https://www.youtube.com/watch?v=BpuVEgqOWT8
