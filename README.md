@@ -9,3 +9,5 @@ Operating System : Android 6.0+ (Marshmallow or Nougat) Tested using Lenovo Yoga
 
 normal flow : https://www.youtube.com/watch?v=fYxVWlseL9Y
 alternate flow :  https://www.youtube.com/watch?v=BpuVEgqOWT8
+
+https://devpost.com/software/personalized-executive-dashboard
